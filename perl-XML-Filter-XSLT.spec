@@ -31,7 +31,7 @@ just XML::LibXSLT (which we use to build a DOM tree), but we expect
 more processors will be added over time.
 
 %description -l pl
-Jest to prosty filtr XSLT dla SAX2. Korzysta z dowolnego dostêpnêgo w
+Jest to prosty filtr XSLT dla SAX2. Korzysta z dowolnego dostêpnego w
 systemie procesora XSLT, z którego potrafi korzystaæ w jaki¶
 SAX-opodobny sposób. Aktualnie jest to po prostu XML::LibXSLT (u¿ywany
 do tworzenia drzewa DOM), lecz oczekuje siê dodania za jaki¶ czas
