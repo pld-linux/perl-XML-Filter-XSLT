@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-XSLT
+%define		pdir	XML
+%define		pnam	Filter-XSLT
 Summary:	XML::Filter::XSLT - XSLT as a SAX filter
 Summary(pl):	XML::Filter::XSLT - XSLT jako filtr SAX
 Name:		perl-XML-Filter-XSLT
