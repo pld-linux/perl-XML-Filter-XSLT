@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-XSLT
-Summary:	XML::Filter::XSLT - XSLT as a SAX Filter
-#Summary(pl):	
+Summary:	XML::Filter::XSLT - XSLT as a SAX filter
+Summary(pl):	XML::Filter::XSLT - XSLT jako filtr SAX
 Name:		perl-XML-Filter-XSLT
 Version:	0.03
 Release:	1
@@ -25,10 +25,17 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-=head1 AUTHOR
+It is a simple XSLT SAX2 filter.  It uses any available XSLT processor
+on your system that we can use in some SAXy way.  Currently this is
+just XML::LibXSLT (which we use to build a DOM tree), but we expect
+more processors will be added over time.
 
-# %description -l pl
-# TODO
+%description -l pl
+Jest to prosty filtr XSLT dla SAX2. Korzysta z dowolnego dostêpnêgo w
+systemie procesora XSLT, z którego potrafi korzystaæ w jaki¶
+SAX-opodobny sposób. Aktualnie jest to po prostu XML::LibXSLT (u¿ywany
+do tworzenia drzewa DOM), lecz oczekuje siê dodania za jaki¶ czas
+wiêkszej liczby procesorów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
