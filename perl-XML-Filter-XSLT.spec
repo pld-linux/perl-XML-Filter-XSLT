@@ -25,8 +25,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-It is a simple XSLT SAX2 filter.  It uses any available XSLT processor
-on your system that we can use in some SAXy way.  Currently this is
+It is a simple XSLT SAX2 filter. It uses any available XSLT processor
+on your system that we can use in some SAXy way. Currently this is
 just XML::LibXSLT (which we use to build a DOM tree), but we expect
 more processors will be added over time.
 
