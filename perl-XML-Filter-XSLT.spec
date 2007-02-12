@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-XSLT
 Summary:	XML::Filter::XSLT - XSLT as a SAX filter
-Summary(pl):	XML::Filter::XSLT - XSLT jako filtr SAX
+Summary(pl.UTF-8):   XML::Filter::XSLT - XSLT jako filtr SAX
 Name:		perl-XML-Filter-XSLT
 Version:	0.03
 Release:	1
@@ -30,12 +30,12 @@ on your system that we can use in some SAXy way. Currently this is
 just XML::LibXSLT (which we use to build a DOM tree), but we expect
 more processors will be added over time.
 
-%description -l pl
-Jest to prosty filtr XSLT dla SAX2. Korzysta z dowolnego dostêpnego w
-systemie procesora XSLT, z którego potrafi korzystaæ w jaki¶
-SAX-opodobny sposób. Aktualnie jest to po prostu XML::LibXSLT (u¿ywany
-do tworzenia drzewa DOM), lecz oczekuje siê dodania za jaki¶ czas
-wiêkszej liczby procesorów.
+%description -l pl.UTF-8
+Jest to prosty filtr XSLT dla SAX2. Korzysta z dowolnego dostÄ™pnego w
+systemie procesora XSLT, z ktÃ³rego potrafi korzystaÄ‡ w jakiÅ›
+SAX-opodobny sposÃ³b. Aktualnie jest to po prostu XML::LibXSLT (uÅ¼ywany
+do tworzenia drzewa DOM), lecz oczekuje siÄ™ dodania za jakiÅ› czas
+wiÄ™kszej liczby procesorÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
