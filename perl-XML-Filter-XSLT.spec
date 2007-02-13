@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-XSLT
 Summary:	XML::Filter::XSLT - XSLT as a SAX filter
-Summary(pl.UTF-8):   XML::Filter::XSLT - XSLT jako filtr SAX
+Summary(pl.UTF-8):	XML::Filter::XSLT - XSLT jako filtr SAX
 Name:		perl-XML-Filter-XSLT
 Version:	0.03
 Release:	1
