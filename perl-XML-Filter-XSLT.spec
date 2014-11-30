@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-XSLT
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::XSLT - XSLT as a SAX filter
 Summary(pl.UTF-8):	XML::Filter::XSLT - XSLT jako filtr SAX
 Name:		perl-XML-Filter-XSLT
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8128f541da6a5a2ee6a3f4764c0652b5
+URL:		http://search.cpan.org/dist/XML-Filter-XSLT/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
